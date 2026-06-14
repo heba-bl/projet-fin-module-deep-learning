@@ -1,5 +1,23 @@
 # Projet Deep Learning EMSI — 2025/2026
-**Thème transversal : Santé & Médecine**
+
+**Réalisé par : Hibatallah Baetouty**  
+**Établissement : EMSI | Module : Deep Learning | Année : 2025/2026**
+
+---
+
+## Idée générale du projet
+
+Ce projet explore trois grandes familles d'architectures de deep learning appliquées au domaine de la **santé et médecine**, à travers PyTorch :
+
+- **Partie I — MLP** : classification de tumeurs mammaires (données tabulaires) avec le dataset *Breast Cancer Wisconsin*. L'objectif est de maîtriser les bases de PyTorch (`nn.Module`, initialisations, sauvegarde/chargement de modèles) et d'évaluer l'impact des stratégies d'initialisation sur la convergence.
+
+- **Partie II — CNN** : détection de pneumonie sur radiographies thoraciques (*PneumoniaMNIST*). On implémente une architecture LeNet adaptée, on étudie les hyperparamètres CNN (padding, stride, pooling, filtres), on visualise les feature maps, et on compare les performances MLP vs CNN sur données images.
+
+- **Partie III — RNN / LSTM / GRU / Seq2Seq** : analyse de reviews médicales (*UCI Drug Reviews*). On explore les modèles récurrents (BPTT, gradient clipping), l'architecture encodeur-décodeur Seq2Seq avec teacher forcing, et les stratégies de décodage (glouton, Beam Search) avec évaluation BLEU.
+
+Une **question transversale finale** relie les trois parties en analysant pourquoi le deep learning décline ses architectures différemment selon la géométrie des données (tabulaire, image, séquentielle).
+
+---
 
 ## Structure du projet
 
